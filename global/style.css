@@ -47,7 +47,7 @@ main {
     color: #343a40;
 }
 
-/* Formulário */
+/* Formulário de login */
 form {
     display: flex;
     flex-direction: column;
@@ -75,4 +75,51 @@ button {
 
 button:hover {
     background-color: #138496;
+}
+
+/* Card home principal */
+.card-home .card {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-home .card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40;
+}
+
+.card-home .card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.menu-item img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 50px) {
+    .menu-icons {
+        gap: 20px;
+    }
 }
