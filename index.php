@@ -14,9 +14,14 @@
     <main>
         <section class="card-login">
             <h2>Login</h2>
-            <form action="">
-                <input type="email" name="" id="" placeholder="E-mail" required>
-                <input type="password" name="" id="" placeholder="Senha" required>
+            <form action="valida_login.php" method="post">
+                <input type="email" name="email" id="" placeholder="E-mail" required>
+                <input type="password" name="senha" id="" placeholder="Senha" required>
+                <? if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+                    <div style="color: red;">
+                        Usuário ou senha inválido
+                    </div>
+                <? } ?>
                 <button type="submit">Entrar</button>
             </form>
         </section>
