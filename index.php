@@ -22,6 +22,11 @@
                         Usuário ou senha inválido
                     </div>
                 <? } ?>
+                <? if (isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
+                    <div style="color: red;">
+                        Faça login antes de acessar as páginas protegidas
+                    </div>
+                <? } ?>
                 <button type="submit">Entrar</button>
             </form>
         </section>
