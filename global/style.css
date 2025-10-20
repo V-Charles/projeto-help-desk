@@ -123,3 +123,92 @@ button:hover {
         gap: 20px;
     }
 }
+
+/* Card de abertura de chamado */
+.card-abrir-chamado .card {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-abrir-chamado .card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40;
+}
+
+.card-abrir-chamado .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-abrir-chamado .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.card-abrir-chamado .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-abrir-chamado .form-group input,
+.card-abrir-chamado .form-group select,
+.card-abrir-chamado .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Botões lado a lado no formulário */
+.card-abrir-chamado .form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card-abrir-chamado .form-actions .btn {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Botão Voltar */
+.card-abrir-chamado .form-actions .btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.card-abrir-chamado .form-actions .btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Botão Abrir */
+.card-abrir-chamado .form-actions .btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.card-abrir-chamado .form-actions .btn-info:hover {
+    background-color: #138496;
+}
+
+/* Responsividade para botões */
+@media (max-width: 500px) {
+    .card-abrir-chamado .form-actions {
+        flex-direction: column;
+    }
+}
