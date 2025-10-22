@@ -34,7 +34,7 @@
                         <p class="chamado-description">Descrição do chamado</p>
                     </article>
                     <div class="form-actions">
-                        <button class="btn btn-warning" type="button">Voltar</button>
+                        <a href="home.php" class="btn btn-warning" type="button">Voltar</a>
                     </div>
                 </div>
             </div>

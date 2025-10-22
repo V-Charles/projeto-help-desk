@@ -20,10 +20,14 @@
                 <div class="card-body">
                     <div class="menu-icons">
                         <div class="menu-item">
-                            <img src="assets/images/formulario_abrir_chamado.png" alt="Abirir Chamado">
+                            <a href="abrir_chamado.php">
+                                <img src="assets/images/formulario_abrir_chamado.png" alt="Abirir Chamado">
+                            </a>
                         </div>
                         <div class="menu-item">
-                            <img src="assets/images/formulario_consultar_chamado.png" alt="Consultar Chamado">
+                            <a href="consultar_chamado.php">
+                                <img src="assets/images/formulario_consultar_chamado.png" alt="Consultar Chamado">
+                            </a>
                         </div>
                     </div>
                 </div>

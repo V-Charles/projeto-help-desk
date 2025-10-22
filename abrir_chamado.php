@@ -38,7 +38,7 @@
                             <textarea name="" id="descricao" rows="3" placeholder="Descreva o problema..." required></textarea>
                         </div>
                         <div class="form-actions">
-                            <button class="btn btn-warning" type="button">Voltar</button>
+                            <a href="home.php" class="btn btn-warning" type="button">Voltar</a>
                             <button class="btn btn-info" type="submit">Abrir</button>
                         </div>
                     </form>
