@@ -23,6 +23,19 @@ header img {
     margin-right: 10px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
 /* Container centralizado */
 main {
     display: flex;

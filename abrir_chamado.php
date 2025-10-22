@@ -12,6 +12,9 @@
     <header>
         <img src="assets/images/logo.png" alt="Logo App Help Desk">
         <h1>App Help Desk</h1>
+        <nav>
+            <a href="logoff.php">Sair</a>
+        </nav>
     </header>
     <main>
         <section class="card-abrir-chamado">
