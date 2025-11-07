@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Help Desk - Home</title>
-    <link rel="stylesheet" href="global/style.css">
+    <link rel="stylesheet" href="../global/style.css">
 </head>
 <body>
     <header>
-        <img src="assets/images/logo.png" alt="Logo App Help Desk">
+        <img src="../assets/images/logo.png" alt="Logo App Help Desk">
         <h1>App Help Desk</h1>
         <nav>
             <a href="logoff.php">Sair</a>
@@ -24,12 +24,12 @@
                     <div class="menu-icons">
                         <div class="menu-item">
                             <a href="abrir_chamado.php">
-                                <img src="assets/images/formulario_abrir_chamado.png" alt="Abirir Chamado">
+                                <img src="../assets/images/formulario_abrir_chamado.png" alt="Abirir Chamado">
                             </a>
                         </div>
                         <div class="menu-item">
                             <a href="consultar_chamado.php">
-                                <img src="assets/images/formulario_consultar_chamado.png" alt="Consultar Chamado">
+                                <img src="../assets/images/formulario_consultar_chamado.png" alt="Consultar Chamado">
                             </a>
                         </div>
                     </div>

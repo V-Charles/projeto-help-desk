@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Help Desk - Consulta de Chamado</title>
-    <link rel="stylesheet" href="global/style.css">
+    <link rel="stylesheet" href="../global/style.css">
 </head>
 <body>
     <header>
-        <img src="assets/images/logo.png" alt="Logo App Help Desk">
+        <img src="../assets/images/logo.png" alt="Logo App Help Desk">
         <h1>App Help Desk</h1>
         <nav>
             <a href="logoff.php">Sair</a>
