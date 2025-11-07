@@ -21,24 +21,24 @@
             <div class="card">
                 <h2 class="card-header">Abertura de Chamado</h2>
                 <div class="card-body">
-                    <form action="">
+                    <form action="registra_chamado.php" method="post">
                         <div class="form-group">
                             <label for="titulo">Título</label>
-                            <input type="text" id="titulo" placeholder="Título" required>
+                            <input type="text" name="titulo" id="titulo" placeholder="Título" required>
                         </div>
                         <div class="form-group">
                             <label for="categoria">Categoria</label>
-                            <select name="" id="categoria" required>
-                                <option value="">Criação Usuário</option>
-                                <option value="">Impressora</option>
-                                <option value="">Hardware</option>
-                                <option value="">Software</option>
-                                <option value="">Rede</option>
+                            <select name="categoria" id="categoria" required>
+                                <option value="">Selecione</option>
+                                <option value="impressora">Impressora</option>
+                                <option value="hardware">Hardware</option>
+                                <option value="software">Software</option>
+                                <option value="rede">Rede</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="descricao">Descrição</label>
-                            <textarea name="" id="descricao" rows="3" placeholder="Descreva o problema..." required></textarea>
+                            <textarea name="descricao" id="descricao" rows="3" placeholder="Descreva o problema..." required></textarea>
                         </div>
                         <div class="form-actions">
                             <a href="home.php" class="btn btn-warning" type="button">Voltar</a>
